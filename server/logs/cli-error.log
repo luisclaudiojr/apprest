@@ -1,0 +1,12 @@
+2014-11-28 18:17:30 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Controller" could not be found.
+Exception Attributes: array (
+  'class' => 'Controller',
+)
+Stack Trace:
+#0 /var/www/tasksapp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(188): Cake\Console\ShellDispatcher->findShell('controller')
+#1 /var/www/tasksapp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(163): Cake\Console\ShellDispatcher->_dispatch()
+#2 /var/www/tasksapp/vendor/cakephp/cakephp/src/Console/ShellDispatcher.php(117): Cake\Console\ShellDispatcher->dispatch()
+#3 /var/www/tasksapp/bin/cake.php(20): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
