@@ -1,0 +1,268 @@
+
+body
+{
+    padding-top: 0;
+    background-color: #F2F2F2;
+    color: #1C2937;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+#content li{
+    color: #1C2937;
+}
+
+#content li:nth-child(even)
+{
+    background: #F2F2F2 ;
+}
+
+#content li:nth-child(odd)
+{
+    background: #e7e7e7 ;
+}
+
+#plus-bt
+{
+
+    padding-bottom: 10px;
+}
+
+
+#edit
+{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: #FF4D4D;
+    color: #f2f2f2;
+    height: 64px;
+    padding-top: 10px;
+}
+
+#edit.absolute{
+    position: absolute !important;
+    height: auto !important;
+    min-height: 100% !important;
+    bottom: auto !important;
+    top: 0px !important;
+    padding-bottom : 20px !important;
+}
+
+.today
+{
+    color: #F2f2f2;
+    background-color: #37465D;
+}
+
+.all
+{
+    color: #f2f2f2;
+    background-color: #1C2937;
+}
+
+#content
+{
+    padding-top: 27px;
+}
+
+.nomargin
+{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 68px;
+}
+
+.top
+{
+    font-size: 150%;
+    overflow: hidden;
+}
+
+.title
+{
+    margin-left: 5px;
+}
+
+.title.big{
+    font-size: 14px;
+}
+
+.list-group-item .options i:hover,.list-group-item .title:hover
+{
+    cursor: pointer;
+}
+
+.list-group-item .description
+{
+    padding: 5px;
+    font-size: 100%;
+    display: none;
+}
+
+.list-group-item
+{
+    min-height: 57px;
+}
+
+.list-group-item .options  i:hover
+{
+    color: #934646;
+}
+
+.ui-sortable-helper
+{
+    background-color: rgba(219, 219, 219, 0.48) !important;
+}
+
+.ui-sortable-helper .options
+{
+    display: none;
+}
+
+
+
+
+.row
+{
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+.options
+{
+    padding: 0;
+}
+
+.options:nth-child(even)
+{
+    /*margin-left: 5px;*/
+}
+.options i
+{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.checked
+{
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.handle{
+    color: #dbdbdb;
+    padding-left: 5px;
+    margin-left: 0px;
+    margin-right: 5px;
+    cursor: move;
+}
+
+h3
+{
+    padding: 0;
+}
+
+.ui-state-default.list-group-item{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.list-group-item.title{
+    background: #1C2937 !important;
+    color: #f2f2f2 !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+#calendar
+{
+    display: none;
+    height: 276px;
+}
+
+#datepicker
+{
+    position: absolute;
+    left: 50% !important;
+    width: 281px !important;
+    margin-left: -140.5px;
+}
+
+#edit-task
+{
+    display: none;
+}
+
+.shadow
+{
+    background: rgba(0, 0, 0, 0.13) !important;
+}
+
+.recover
+{
+    font-size: 15px;
+    color: #adadad;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+#loader
+{
+    display: none;
+}
+
+
+#loader.center{
+    position: fixed;
+    top:50%;
+    left:50%;
+    margin-left: -16px;
+    margin-top: -16px;
+}
+
+@-webkit-keyframes rotatorLinear
+{
+    from { -webkit-transform: rotate(4deg) scale(1) skew(1deg) ; }
+    to { -webkit-transform: rotate(360deg) scale(1) skew(1deg) ; }
+}
+@-moz-keyframes rotatorLinear
+{
+    from { -webkit-transform: rotate(4deg) scale(1) skew(1deg) ; }
+    to { -webkit-transform: rotate(360deg) scale(1) skew(1deg) ; }
+}
+@-o-keyframes rotatorLinear
+{
+    from { -webkit-transform: rotate(4deg) scale(1) skew(1deg) ; }
+    to { -webkit-transform: rotate(360deg) scale(1) skew(1deg) ; }
+}
+
+#all .remove-group {
+    font-size: 20px;
+    margin-top: 2px;
+    margin-left: -4px;
+    margin-right: 0;
+}
+
+#all h4
+{
+    margin: 0;
+}
+
+#all, #today
+{
+    display: none;
+    padding-bottom: 50px;
+}
+
+ul.group, ul.sortable{
+    padding: 0;
+}

@@ -1,0 +1,153 @@
+
+body
+{
+    padding-top: 0;
+    background-color: #F2F2F2;
+    color: #1C2937;
+}
+
+li:nth-child(even)
+{
+    background-color: #F2F2F2;
+}
+
+#plus-bt
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: none;
+}
+
+
+#edit
+{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: #FF4D4D;
+    color: #f2f2f2;
+    height: 100%;
+}
+
+.today
+{
+    color: #F2f2f2;
+    background-color: #37465D;
+}
+
+.week
+{
+    color: #f2f2f2;
+    background-color: #1C2937;
+}
+
+#content
+{
+    padding-top: 27px;
+}
+
+.nomargin
+{
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 68px;
+}
+
+.top
+{
+    font-size: 150%;
+}
+
+.title
+{
+    margin-left: 5px;
+}
+
+.list-group-item .options i:hover,.list-group-item .title:hover
+{
+    cursor: pointer;
+}
+
+.sortable .description
+{
+    padding: 5px;
+    font-size: 100%;
+    display: none;
+}
+
+.list-group-item
+{
+    min-height: 57px;
+}
+
+.list-group-item .options  i:hover
+{
+    color: #934646;
+}
+
+.ui-sortable-helper
+{
+    background-color: #934646 !important;
+}
+
+.ui-sortable-helper .options
+{
+    display: none;
+}
+
+
+
+
+.row
+{
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+.options
+{
+    padding: 0;
+}
+
+.options:nth-child(even)
+{
+    /*margin-left: 5px;*/
+}
+.options i
+{
+    margin: 0 ;
+    padding: 0 ;
+}
+
+.checked
+{
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.handle{
+    color: #dbdbdb;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    cursor: move;
+}
+
+h3
+{
+    padding: 0;
+}
+
+.ui-state-default.list-group-item{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.list-group-item.title{
+    background-color: #1C2937;
+    color: #f2f2f2;
+    margin-left: 0px !important;
+}

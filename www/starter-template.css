@@ -1,0 +1,127 @@
+
+
+body
+{
+    padding-top: 0;
+    background-color: #F2F2F2;
+    color: #1C2937;
+}
+
+.starter-template
+{
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.circu
+{
+    border-radius: 50em;
+    margin: 0 10px 0 0;
+    max-height: 30px;
+}
+
+li:nth-child(even)
+{
+    background-color: #F2F2F2;
+}
+
+.page-header
+{
+    margin-top: 0px;
+    background-color: #FF4D4D;
+    color: #FFFFFF;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.plus
+{
+    padding: 10px 20px 20px;
+}
+
+null
+{
+}
+
+footer
+{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background: #FF4D4D;
+    color: #FFFFFF;
+}
+
+.session-diaria
+{
+}
+
+.diaria
+{
+    color: #F2f2f2;
+    background-color: #37465D;
+}
+
+.semana
+{
+    color: #f2f2f2;
+    background-color: #1C2937;
+}
+
+.content
+{
+    padding-top: 30px;
+}
+
+.nomargin
+{
+    margin: 0;
+    padding: 20px;
+}
+
+.top
+{
+    font-size: 24px;
+}
+
+.title
+{
+    margin-left: 5px;
+}
+
+.list-group-item i:hover,.list-group-item i:active,.list-group-item .title:hover,.list-group-item .title:active
+{
+    cursor: pointer;
+}
+
+.options i
+{
+}
+
+.sortable .description
+{
+    padding: 5px;
+    font-size: 18px;
+    display: none;
+}
+
+.list-group-item
+{
+    min-height: 57px;
+}
+
+.list-group-item i:hover,.list-group-item i:active
+{
+    color: #934646;
+}
+
+.ui-sortable-helper
+{
+    background-color: #934646 !important;
+    color:#F2F2F2 !important;
+}
+
+.ui-sortable-helper i:active
+{
+    color:#F2F2F2 !important;
+}
